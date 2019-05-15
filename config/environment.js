@@ -3,6 +3,7 @@
 module.exports = function(environment) {
   let ENV = {
     modulePrefix: 'qadmin-ember',
+    podModulePrefix: 'qadmin-ember/views',
     environment,
     rootURL: '/',
     locationType: 'auto',
