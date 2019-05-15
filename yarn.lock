@@ -1576,6 +1576,11 @@ assign-symbols@^1.0.0:
   resolved "https://registry.npm.taobao.org/assign-symbols/download/assign-symbols-1.0.0.tgz#59667f41fadd4f20ccbc2bb96b8d4f7f78ec0367"
   integrity sha1-WWZ/QfrdTyDMvCu5a41Pf3jsA2c=
 
+ast-types@0.10.1:
+  version "0.10.1"
+  resolved "https://registry.npm.taobao.org/ast-types/download/ast-types-0.10.1.tgz#f52fca9715579a14f841d67d7f8d25432ab6a3dd"
+  integrity sha1-9S/KlxVXmhT4QdZ9f40lQyq2o90=
+
 ast-types@0.9.6:
   version "0.9.6"
   resolved "https://registry.npm.taobao.org/ast-types/download/ast-types-0.9.6.tgz#102c9e9e9005d3e7e3829bf0c4fa24ee862ee9b9"
@@ -2447,6 +2452,11 @@ boom@2.x.x:
   dependencies:
     hoek "2.x.x"
 
+bootstrap@^4.3.1:
+  version "4.3.1"
+  resolved "https://registry.npm.taobao.org/bootstrap/download/bootstrap-4.3.1.tgz#280ca8f610504d99d7b6b4bfc4b68cec601704ac"
+  integrity sha1-KAyo9hBQTZnXtrS/xLaM7GAXBKw=
+
 bower-config@^1.4.1:
   version "1.4.1"
   resolved "https://registry.npm.taobao.org/bower-config/download/bower-config-1.4.1.tgz#85fd9df367c2b8dbbd0caa4c5f2bad40cd84c2cc"
@@ -2666,7 +2676,7 @@ broccoli-config-replace@^1.1.2:
     debug "^2.2.0"
     fs-extra "^0.24.0"
 
-broccoli-debug@^0.6.1, broccoli-debug@^0.6.4, broccoli-debug@^0.6.5:
+broccoli-debug@^0.6.1, broccoli-debug@^0.6.3, broccoli-debug@^0.6.4, broccoli-debug@^0.6.5:
   version "0.6.5"
   resolved "https://registry.npm.taobao.org/broccoli-debug/download/broccoli-debug-0.6.5.tgz#164a5cdafd8936e525e702bf8f91f39d758e2e78"
   integrity sha1-Fkpc2v2JNuUl5wK/j5HznXWOLng=
@@ -2964,11 +2974,6 @@ broccoli-source@^1.1.0:
   version "1.1.0"
   resolved "https://registry.npm.taobao.org/broccoli-source/download/broccoli-source-1.1.0.tgz#54f0e82c8b73f46580cbbc4f578f0b32fca8f809"
   integrity sha1-VPDoLItz9GWAy7xPV48LMvyo+Ak=
-
-broccoli-source@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.npm.taobao.org/broccoli-source/download/broccoli-source-2.0.0.tgz#02d3f369fd0ef1b25c0b1646cc3c87d4c7f76cc0"
-  integrity sha1-AtPzaf0O8bJcCxZGzDyH1Mf3bMA=
 
 broccoli-sri-hash@^2.1.0:
   version "2.1.2"
@@ -4007,7 +4012,7 @@ core-js@3.0.1:
   resolved "https://registry.npm.taobao.org/core-js/download/core-js-3.0.1.tgz#1343182634298f7f38622f95e73f54e48ddf4738"
   integrity sha1-E0MYJjQpj384Yi+V5z9U5I3fRzg=
 
-core-js@^2.4.0, core-js@^2.5.0, core-js@^2.6.5:
+core-js@^2.4.0, core-js@^2.4.1, core-js@^2.5.0, core-js@^2.6.5:
   version "2.6.5"
   resolved "https://registry.npm.taobao.org/core-js/download/core-js-2.6.5.tgz#44bc8d249e7fb2ff5d00e0341a7ffb94fbf67895"
   integrity sha1-RLyNJJ5/sv9dAOA0Gn/7lPv2eJU=
@@ -4178,7 +4183,7 @@ debug@^4.0.0, debug@^4.0.1, debug@^4.1.0, debug@^4.1.1, debug@~4.1.0:
   dependencies:
     ms "^2.1.1"
 
-debuglog@*, debuglog@^1.0.1:
+debuglog@^1.0.1:
   version "1.0.1"
   resolved "https://registry.npm.taobao.org/debuglog/download/debuglog-1.0.1.tgz#aa24ffb9ac3df9a2351837cfb2d279360cd78492"
   integrity sha1-qiT/uaw9+aI1GDfPstJ5NgzXhJI=
@@ -4448,6 +4453,14 @@ ember-assign-helper@^0.2.0:
   dependencies:
     ember-cli-babel "^6.6.0"
 
+ember-assign-polyfill@^2.0.1:
+  version "2.6.0"
+  resolved "https://registry.npm.taobao.org/ember-assign-polyfill/download/ember-assign-polyfill-2.6.0.tgz#07847e3357ee35b33f886a0b5fbec6873f6860eb"
+  integrity sha1-B4R+M1fuNbM/iGoLX77Ghz9oYOs=
+  dependencies:
+    ember-cli-babel "^6.16.0"
+    ember-cli-version-checker "^2.0.0"
+
 ember-assign-polyfill@~2.4.0:
   version "2.4.0"
   resolved "https://registry.npm.taobao.org/ember-assign-polyfill/download/ember-assign-polyfill-2.4.0.tgz#acb00466f7d674b3e6b030acfe255b3b1f6472e1"
@@ -4495,6 +4508,32 @@ ember-basic-dropdown@^1.1.0:
     ember-cli-htmlbars "^3.0.1"
     ember-maybe-in-element "^0.2.0"
 
+ember-bootstrap@^2.6.2:
+  version "2.6.2"
+  resolved "https://registry.npm.taobao.org/ember-bootstrap/download/ember-bootstrap-2.6.2.tgz#dc435d31ceec5bdeb3e955a544ef318a8c465f75"
+  integrity sha1-3ENdMc7sW96z6VWlRO8xioxGX3U=
+  dependencies:
+    broccoli-debug "^0.6.3"
+    broccoli-funnel "^2.0.0"
+    broccoli-merge-trees "^3.0.1"
+    broccoli-stew "^2.0.0"
+    chalk "^2.1.0"
+    ember-assign-polyfill "^2.0.1"
+    ember-cli-babel "^6.16.0"
+    ember-cli-build-config-editor "0.5.0"
+    ember-cli-htmlbars "^3.0.0"
+    ember-cli-version-checker "^3.0.0"
+    ember-concurrency "^0.8.0 || ^0.9.0 || ^0.10.0"
+    ember-in-element-polyfill "^0.1.2"
+    ember-maybe-in-element "^0.1.3"
+    ember-popper "^0.9.0"
+    ember-runtime-enumerable-includes-polyfill "^2.0.0"
+    findup-sync "^3.0.0"
+    fs-extra "^7.0.1"
+    resolve "^1.5.0"
+    rsvp "^4.0.1"
+    silent-error "^1.0.1"
+
 ember-changeset-validations@^2.1.0:
   version "2.1.0"
   resolved "https://registry.npm.taobao.org/ember-changeset-validations/download/ember-changeset-validations-2.1.0.tgz#454b5adc1e4b4bcb0bdf1896a5d50f0bee77b1f0"
@@ -4527,7 +4566,7 @@ ember-cli-babel-plugin-helpers@^1.0.0, ember-cli-babel-plugin-helpers@^1.1.0:
   resolved "https://registry.npm.taobao.org/ember-cli-babel-plugin-helpers/download/ember-cli-babel-plugin-helpers-1.1.0.tgz#de3baedd093163b6c2461f95964888c1676325ac"
   integrity sha1-3juu3QkxY7bCRh+VlkiIwWdjJaw=
 
-ember-cli-babel@^6.0.0-beta.4, ember-cli-babel@^6.0.0-beta.7, ember-cli-babel@^6.10.0, ember-cli-babel@^6.12.0, ember-cli-babel@^6.16.0, ember-cli-babel@^6.3.0, ember-cli-babel@^6.6.0, ember-cli-babel@^6.8.1, ember-cli-babel@^6.8.2, ember-cli-babel@^6.9.2:
+ember-cli-babel@^6.0.0-beta.4, ember-cli-babel@^6.0.0-beta.7, ember-cli-babel@^6.10.0, ember-cli-babel@^6.11.0, ember-cli-babel@^6.12.0, ember-cli-babel@^6.16.0, ember-cli-babel@^6.3.0, ember-cli-babel@^6.6.0, ember-cli-babel@^6.8.1, ember-cli-babel@^6.8.2, ember-cli-babel@^6.9.0, ember-cli-babel@^6.9.2:
   version "6.18.0"
   resolved "https://registry.npm.taobao.org/ember-cli-babel/download/ember-cli-babel-6.18.0.tgz#3f6435fd275172edeff2b634ee7b29ce74318957"
   integrity sha1-P2Q1/SdRcu3v8rY07nspznQxiVc=
@@ -4583,6 +4622,13 @@ ember-cli-broccoli-sane-watcher@^3.0.0:
     heimdalljs-logger "^0.1.7"
     rsvp "^3.0.18"
     sane "^4.0.0"
+
+ember-cli-build-config-editor@0.5.0:
+  version "0.5.0"
+  resolved "https://registry.npm.taobao.org/ember-cli-build-config-editor/download/ember-cli-build-config-editor-0.5.0.tgz#e19a06f4da2e3e579b407964b72df9fbf3839f4b"
+  integrity sha1-4ZoG9NouPlebQHlkty35+/ODn0s=
+  dependencies:
+    recast "^0.12.0"
 
 ember-cli-dependency-checker@^3.1.0:
   version "3.1.0"
@@ -4961,7 +5007,7 @@ ember-composable-helpers@^2.3.1:
     ember-cli-babel "^7.1.0"
     resolve "^1.10.0"
 
-ember-concurrency@^0.10.0, "ember-concurrency@^0.8.27 || ^0.9.0 || ^0.10.0":
+ember-concurrency@^0.10.0, "ember-concurrency@^0.8.0 || ^0.9.0 || ^0.10.0", "ember-concurrency@^0.8.27 || ^0.9.0 || ^0.10.0":
   version "0.10.0"
   resolved "https://registry.npm.taobao.org/ember-concurrency/download/ember-concurrency-0.10.0.tgz#9c7c79dca411e01466119f02d7197c0a4ff0df08"
   integrity sha1-nHx53KQR4BRmEZ8C1xl8Ck/w3wg=
@@ -5122,6 +5168,16 @@ ember-href-to@^3.1.0:
   dependencies:
     ember-cli-babel "^7.1.2"
 
+ember-in-element-polyfill@^0.1.2:
+  version "0.1.3"
+  resolved "https://registry.npm.taobao.org/ember-in-element-polyfill/download/ember-in-element-polyfill-0.1.3.tgz#cacba70c3244a9148c278bce4704c3feb60c6778"
+  integrity sha1-ysunDDJEqRSMJ4vORwTD/rYMZ3g=
+  dependencies:
+    debug "^3.1.0"
+    ember-cli-babel "^6.6.0"
+    ember-cli-version-checker "^2.1.0"
+    ember-wormhole "^0.5.4"
+
 ember-in-viewport@^3.5.5:
   version "3.5.5"
   resolved "https://registry.npm.taobao.org/ember-in-viewport/download/ember-in-viewport-3.5.5.tgz#33ff5f22f10eda95b18254d7d1a472c3d9ebf50b"
@@ -5211,12 +5267,34 @@ ember-maybe-import-regenerator@^0.1.5, ember-maybe-import-regenerator@^0.1.6:
     ember-cli-babel "^6.0.0-beta.4"
     regenerator-runtime "^0.9.5"
 
+ember-maybe-in-element@^0.1.3:
+  version "0.1.3"
+  resolved "https://registry.npm.taobao.org/ember-maybe-in-element/download/ember-maybe-in-element-0.1.3.tgz#1c89be49246e580c1090336ad8be31e373f71b60"
+  integrity sha1-HIm+SSRuWAwQkDNq2L4x43P3G2A=
+  dependencies:
+    ember-cli-babel "^6.11.0"
+
 ember-maybe-in-element@^0.2.0:
   version "0.2.0"
   resolved "https://registry.npm.taobao.org/ember-maybe-in-element/download/ember-maybe-in-element-0.2.0.tgz#9ac51cbbd9d83d6230ad996c11e33f0eca3032e0"
   integrity sha1-msUcu9nYPWIwrZlsEeM/DsowMuA=
   dependencies:
     ember-cli-babel "^7.1.0"
+
+ember-popper@^0.9.0:
+  version "0.9.2"
+  resolved "https://registry.npm.taobao.org/ember-popper/download/ember-popper-0.9.2.tgz#a09298c2c2dcb66e3299b38e3729d8d2a1d08ad5"
+  integrity sha1-oJKYwsLctm4ymbOONynY0qHQitU=
+  dependencies:
+    babel6-plugin-strip-class-callcheck "^6.0.0"
+    ember-cli-babel "^6.10.0"
+    ember-cli-htmlbars "^2.0.3"
+    ember-cli-node-assets "^0.2.2"
+    ember-in-element-polyfill "^0.1.2"
+    ember-maybe-in-element "^0.1.3"
+    ember-raf-scheduler "^0.1.0"
+    fastboot-transform "^0.1.0"
+    popper.js "^1.14.1"
 
 ember-power-calendar-moment@^0.1.7:
   version "0.1.7"
@@ -5263,6 +5341,13 @@ ember-qunit@^3.4.1:
     ember-cli-test-loader "^2.2.0"
     qunit "~2.6.0"
 
+ember-raf-scheduler@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.npm.taobao.org/ember-raf-scheduler/download/ember-raf-scheduler-0.1.0.tgz#a22a02d238c374499231c03ab9c5b9887c72a853"
+  integrity sha1-oioC0jjDdEmSMcA6ucW5iHxyqFM=
+  dependencies:
+    ember-cli-babel "^6.6.0"
+
 ember-require-module@^0.3.0:
   version "0.3.0"
   resolved "https://registry.npm.taobao.org/ember-require-module/download/ember-require-module-0.3.0.tgz#65aff7908b5b846467e4526594d33cfe0c23456b"
@@ -5302,6 +5387,14 @@ ember-router-generator@^1.2.3:
   integrity sha1-jtLKhv8yM2MSD8FCeBkeno8TFe4=
   dependencies:
     recast "^0.11.3"
+
+ember-runtime-enumerable-includes-polyfill@^2.0.0:
+  version "2.1.0"
+  resolved "https://registry.npm.taobao.org/ember-runtime-enumerable-includes-polyfill/download/ember-runtime-enumerable-includes-polyfill-2.1.0.tgz#dc6d4a028471e4acc350dfd2a149874fb20913f5"
+  integrity sha1-3G1KAoRx5KzDUN/SoUmHT7IJE/U=
+  dependencies:
+    ember-cli-babel "^6.9.0"
+    ember-cli-version-checker "^2.1.0"
 
 ember-simple-auth@^1.8.2:
   version "1.8.2"
@@ -5374,24 +5467,6 @@ ember-text-measurer@^0.5.0:
   dependencies:
     ember-cli-babel "^7.1.0"
 
-ember-tooltips@^3.3.1:
-  version "3.3.1"
-  resolved "https://registry.npm.taobao.org/ember-tooltips/download/ember-tooltips-3.3.1.tgz#3c97c3b5860daefe4cde75f3c802d3892b9b420a"
-  integrity sha1-PJfDtYYNrv5M3nXzyALTiSubQgo=
-  dependencies:
-    broccoli-file-creator "^2.1.1"
-    broccoli-funnel "^2.0.2"
-    broccoli-merge-trees "^2.0.0"
-    broccoli-source "^2.0.0"
-    broccoli-string-replace "^0.1.2"
-    ember-cli-babel "^6.16.0"
-    ember-cli-htmlbars "^3.0.0"
-    ember-get-config "^0.2.4"
-    ember-wormhole "^0.5.5"
-    popper.js "^1.12.5"
-    resolve "^1.10.1"
-    tooltip.js "^1.1.5"
-
 ember-truth-helpers@^2.1.0:
   version "2.1.0"
   resolved "https://registry.npm.taobao.org/ember-truth-helpers/download/ember-truth-helpers-2.1.0.tgz#d4dab4eee7945aa2388126485977baeb33ca0798"
@@ -5416,7 +5491,7 @@ ember-welcome-page@^3.2.0:
     ember-cli-babel "^6.6.0"
     ember-cli-htmlbars "^2.0.3"
 
-ember-wormhole@^0.5.5:
+ember-wormhole@^0.5.4:
   version "0.5.5"
   resolved "https://registry.npm.taobao.org/ember-wormhole/download/ember-wormhole-0.5.5.tgz#db417ff748cb21e574cd5f233889897bc27096cb"
   integrity sha1-20F/90jLIeV0zV8jOImJe8Jwlss=
@@ -5669,7 +5744,7 @@ espree@^3.5.4:
     acorn "^5.5.0"
     acorn-jsx "^3.0.0"
 
-esprima@^4.0.0:
+esprima@^4.0.0, esprima@~4.0.0:
   version "4.0.1"
   resolved "https://registry.npm.taobao.org/esprima/download/esprima-4.0.1.tgz#13b04cdb3e6c5d19df91ab6987a8695619b0aa71"
   integrity sha1-E7BM2z5sXRnfkatph6hpVhmwqnE=
@@ -5980,7 +6055,7 @@ fast-sourcemap-concat@^1.4.0:
     source-map-url "^0.3.0"
     sourcemap-validator "^1.1.0"
 
-fastboot-transform@^0.1.3:
+fastboot-transform@^0.1.0, fastboot-transform@^0.1.3:
   version "0.1.3"
   resolved "https://registry.npm.taobao.org/fastboot-transform/download/fastboot-transform-0.1.3.tgz#7dea0b117594afd8772baa6c9b0919644e7f7dcd"
   integrity sha1-feoLEXWUr9h3K6psmwkZZE5/fc0=
@@ -6114,6 +6189,16 @@ findup-sync@2.0.0, findup-sync@^2.0.0:
   dependencies:
     detect-file "^1.0.0"
     is-glob "^3.1.0"
+    micromatch "^3.0.4"
+    resolve-dir "^1.0.1"
+
+findup-sync@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.npm.taobao.org/findup-sync/download/findup-sync-3.0.0.tgz#17b108f9ee512dfb7a5c7f3c8b27ea9e1a9c08d1"
+  integrity sha1-F7EI+e5RLft6XH88iyfqnhqcCNE=
+  dependencies:
+    detect-file "^1.0.0"
+    is-glob "^4.0.0"
     micromatch "^3.0.4"
     resolve-dir "^1.0.1"
 
@@ -7055,7 +7140,7 @@ import-lazy@^2.1.0:
   resolved "https://registry.npm.taobao.org/import-lazy/download/import-lazy-2.1.0.tgz#05698e3d45c88e8d7e9d92cb0584e77f096f3e43"
   integrity sha1-BWmOPUXIjo1+nZLLBYTnfwlvPkM=
 
-imurmurhash@*, imurmurhash@^0.1.4:
+imurmurhash@^0.1.4:
   version "0.1.4"
   resolved "https://registry.npm.taobao.org/imurmurhash/download/imurmurhash-0.1.4.tgz#9218b9b2b928a238b13dc4fb6b6d576f231453ea"
   integrity sha1-khi5srkoojixPcT7a21XbyMUU+o=
@@ -7948,11 +8033,6 @@ lodash._baseflatten@^3.0.0:
     lodash.isarguments "^3.0.0"
     lodash.isarray "^3.0.0"
 
-lodash._baseindexof@*:
-  version "3.1.0"
-  resolved "https://registry.npm.taobao.org/lodash._baseindexof/download/lodash._baseindexof-3.1.0.tgz#fe52b53a1c6761e42618d654e4a25789ed61822c"
-  integrity sha1-/lK1OhxnYeQmGNZU5KJXie1hgiw=
-
 lodash._baseuniq@~4.6.0:
   version "4.6.0"
   resolved "https://registry.npm.taobao.org/lodash._baseuniq/download/lodash._baseuniq-4.6.0.tgz#0ebb44e456814af7905c6212fa2c9b2d51b841e8"
@@ -7961,15 +8041,10 @@ lodash._baseuniq@~4.6.0:
     lodash._createset "~4.0.0"
     lodash._root "~3.0.0"
 
-lodash._bindcallback@*, lodash._bindcallback@^3.0.0:
+lodash._bindcallback@^3.0.0:
   version "3.0.1"
   resolved "https://registry.npm.taobao.org/lodash._bindcallback/download/lodash._bindcallback-3.0.1.tgz#e531c27644cf8b57a99e17ed95b35c748789392e"
   integrity sha1-5THCdkTPi1epnhftlbNcdIeJOS4=
-
-lodash._cacheindexof@*:
-  version "3.0.2"
-  resolved "https://registry.npm.taobao.org/lodash._cacheindexof/download/lodash._cacheindexof-3.0.2.tgz#3dc69ac82498d2ee5e3ce56091bafd2adc7bde92"
-  integrity sha1-PcaayCSY0u5ePOVgkbr9Ktx73pI=
 
 lodash._createassigner@^3.0.0:
   version "3.1.1"
@@ -7979,13 +8054,6 @@ lodash._createassigner@^3.0.0:
     lodash._bindcallback "^3.0.0"
     lodash._isiterateecall "^3.0.0"
     lodash.restparam "^3.0.0"
-
-lodash._createcache@*:
-  version "3.1.2"
-  resolved "https://registry.npm.taobao.org/lodash._createcache/download/lodash._createcache-3.1.2.tgz#56d6a064017625e79ebca6b8018e17440bdcf093"
-  integrity sha1-VtagZAF2JeeevKa4AY4XRAvc8JM=
-  dependencies:
-    lodash._getnative "^3.0.0"
 
 lodash._createset@~4.0.0:
   version "4.0.3"
@@ -8013,7 +8081,7 @@ lodash._escapestringchar@~2.3.0:
   resolved "https://registry.npm.taobao.org/lodash._escapestringchar/download/lodash._escapestringchar-2.3.0.tgz#cce73ae60fc6da55d2bf8a0679c23ca2bab149fc"
   integrity sha1-zOc65g/G2lXSv4oGecI8orqxSfw=
 
-lodash._getnative@*, lodash._getnative@^3.0.0:
+lodash._getnative@^3.0.0:
   version "3.9.1"
   resolved "https://registry.npm.taobao.org/lodash._getnative/download/lodash._getnative-3.9.1.tgz#570bc7dede46d61cdcde687d65d3eecbaa3aaff5"
   integrity sha1-VwvH3t5G1hzc3mh9ZdPuy6o6r/U=
@@ -8248,7 +8316,7 @@ lodash.omit@^4.1.0, lodash.omit@^4.5.0:
   resolved "https://registry.npm.taobao.org/lodash.omit/download/lodash.omit-4.5.0.tgz#6eb19ae5a1ee1dd9df0b969e66ce0b7fa30b5e60"
   integrity sha1-brGa5aHuHdnfC5aeZs4Lf6MLXmA=
 
-lodash.restparam@*, lodash.restparam@^3.0.0:
+lodash.restparam@^3.0.0:
   version "3.6.1"
   resolved "https://registry.npm.taobao.org/lodash.restparam/download/lodash.restparam-3.6.1.tgz#936a4e309ef330a7645ed4145986c85ae5b20805"
   integrity sha1-k2pOMJ7zMKdkXtQUWYbIWuWyCAU=
@@ -9764,7 +9832,7 @@ pluralize@^7.0.0:
   resolved "https://registry.npm.taobao.org/pluralize/download/pluralize-7.0.0.tgz#298b89df8b93b0221dbf421ad2b1b1ea23fc6777"
   integrity sha1-KYuJ34uTsCIdv0Ia0rGx6iP8Z3c=
 
-popper.js@^1.0.2, popper.js@^1.12.5:
+popper.js@^1.14.1:
   version "1.15.0"
   resolved "https://registry.npm.taobao.org/popper.js/download/popper.js-1.15.0.tgz#5560b99bbad7647e9faa475c6b8056621f5a4ff2"
   integrity sha1-VWC5m7rXZH6fqkdca4BWYh9aT/I=
@@ -10187,7 +10255,7 @@ readable-stream@~1.1.10:
     isarray "0.0.1"
     string_decoder "~0.10.x"
 
-readdir-scoped-modules@*, readdir-scoped-modules@^1.0.0:
+readdir-scoped-modules@^1.0.0:
   version "1.0.2"
   resolved "https://registry.npm.taobao.org/readdir-scoped-modules/download/readdir-scoped-modules-1.0.2.tgz#9fafa37d286be5d92cbaebdee030dc9b5f406747"
   integrity sha1-n6+jfShr5dksuuve4DDcm19AZ0c=
@@ -10215,6 +10283,17 @@ recast@^0.11.3:
     esprima "~3.1.0"
     private "~0.1.5"
     source-map "~0.5.0"
+
+recast@^0.12.0:
+  version "0.12.9"
+  resolved "https://registry.npm.taobao.org/recast/download/recast-0.12.9.tgz#e8e52bdb9691af462ccbd7c15d5a5113647a15f1"
+  integrity sha1-6OUr25aRr0Ysy9fBXVpRE2R6FfE=
+  dependencies:
+    ast-types "0.10.1"
+    core-js "^2.4.1"
+    esprima "~4.0.0"
+    private "~0.1.5"
+    source-map "~0.6.1"
 
 redeyed@~1.0.0:
   version "1.0.1"
@@ -10511,7 +10590,7 @@ resolve@1.5.0:
   dependencies:
     path-parse "^1.0.5"
 
-resolve@^1.1.3, resolve@^1.1.7, resolve@^1.10.0, resolve@^1.10.1, resolve@^1.3.2, resolve@^1.3.3, resolve@^1.4.0, resolve@^1.5.0, resolve@^1.7.1, resolve@^1.8.1:
+resolve@^1.1.3, resolve@^1.1.7, resolve@^1.10.0, resolve@^1.3.2, resolve@^1.3.3, resolve@^1.4.0, resolve@^1.5.0, resolve@^1.7.1, resolve@^1.8.1:
   version "1.10.1"
   resolved "https://registry.npm.taobao.org/resolve/download/resolve-1.10.1.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fresolve%2Fdownload%2Fresolve-1.10.1.tgz#664842ac960795bbe758221cdccda61fb64b5f18"
   integrity sha1-ZkhCrJYHlbvnWCIc3M2mH7ZLXxg=
@@ -10613,7 +10692,7 @@ rsvp@^3.0.14, rsvp@^3.0.17, rsvp@^3.0.18, rsvp@^3.0.21, rsvp@^3.0.6, rsvp@^3.1.0
   resolved "https://registry.npm.taobao.org/rsvp/download/rsvp-3.6.2.tgz#2e96491599a96cde1b515d5674a8f7a91452926a"
   integrity sha1-LpZJFZmpbN4bUV1WdKj3qRRSkmo=
 
-rsvp@^4.6.1, rsvp@^4.7.0, rsvp@^4.8.1, rsvp@^4.8.2, rsvp@^4.8.3, rsvp@^4.8.4:
+rsvp@^4.0.1, rsvp@^4.6.1, rsvp@^4.7.0, rsvp@^4.8.1, rsvp@^4.8.2, rsvp@^4.8.3, rsvp@^4.8.4:
   version "4.8.4"
   resolved "https://registry.npm.taobao.org/rsvp/download/rsvp-4.8.4.tgz#b50e6b34583f3dd89329a2f23a8a2be072845911"
   integrity sha1-tQ5rNFg/PdiTKaLyOoor4HKEWRE=
@@ -11692,13 +11771,6 @@ to-regex@^3.0.1, to-regex@^3.0.2:
     regex-not "^1.0.2"
     safe-regex "^1.1.0"
 
-tooltip.js@^1.1.5:
-  version "1.3.2"
-  resolved "https://registry.npm.taobao.org/tooltip.js/download/tooltip.js-1.3.2.tgz#ccfe450ffd7332ce5f254033778649526c1db542"
-  integrity sha1-zP5FD/1zMs5fJUAzd4ZJUmwdtUI=
-  dependencies:
-    popper.js "^1.0.2"
-
 tough-cookie@~2.3.0:
   version "2.3.4"
   resolved "https://registry.npm.taobao.org/tough-cookie/download/tough-cookie-2.3.4.tgz#ec60cee38ac675063ffc97a5c18970578ee83655"
@@ -12061,7 +12133,7 @@ uuid@~3.1.0:
   resolved "https://registry.npm.taobao.org/uuid/download/uuid-3.1.0.tgz#3dd3d3e790abc24d7b0d3a034ffababe28ebbc04"
   integrity sha1-PdPT55Crwk17DToDT/q6vijrvAQ=
 
-validate-npm-package-license@*, validate-npm-package-license@^3.0.1:
+validate-npm-package-license@^3.0.1:
   version "3.0.4"
   resolved "https://registry.npm.taobao.org/validate-npm-package-license/download/validate-npm-package-license-3.0.4.tgz#fc91f6b9c7ba15c857f4cb2c5defeec39d4f410a"
   integrity sha1-/JH2uce6FchX9MssXe/uw51PQQo=
