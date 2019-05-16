@@ -1,0 +1,16 @@
+{
+  "name": "qadmin-ember",
+  "dependencies": {
+    "d3": "~3.5.3",
+    "lodash": "~4.17.4",
+    "jquery": "2.1.0",
+    "jquery-ui": "1.11.4",
+    "bootstrap-tokenfield": "^0.12.1",
+    "iCheck": "^1.0.2",
+    "plyr": "^3.5.4",
+    "fullpage.js": "^2.7.8",
+    "framework7": "^4.4.0",
+    "ag-grid": "^9.0.0",
+    "ag-grid-enterprise": "^9.0.1"
+  }
+}
